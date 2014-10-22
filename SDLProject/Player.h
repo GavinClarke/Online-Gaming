@@ -15,6 +15,7 @@ private:
 
 public:
 	Player();
+	Player(b2Vec2 pos);
 	~Player(void);
 	void Update();
 	void setPosition(b2Vec2 value);

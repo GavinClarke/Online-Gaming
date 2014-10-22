@@ -9,6 +9,11 @@ Player::Player()
 	position = b2Vec2(320,240);
 }
 
+Player::Player(b2Vec2 pos)
+{
+	position = pos;
+}
+
 Player::~Player(void)
 {
 }

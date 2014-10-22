@@ -85,9 +85,8 @@ int main( int argc, char* args[] )
 
 	NetWorkSetup();
 
-	m_Player = new Player();
-	m_Player_2 = new Player();
-	m_Player_2->setPosition(b2Vec2(120,240));
+	m_Player = new Player(b2Vec2(320,240));
+	m_Player_2 = new Player(b2Vec2(120,240));
 	m_Player->LoadImages(gRenderer,"player.png");
 	m_Player_2->LoadImages(gRenderer,"player2.png");
 	bool quit = false;
@@ -118,7 +117,7 @@ int main( int argc, char* args[] )
 		m_Player_2->DrawImage(gRenderer);
 		if(Collision(m_Player->getPosition(),m_Player_2->getPosition()))
 		{
-			break;
+			//break;
 			//int hi= 9;
 		}
 		SendMessage(m_Player->getPosition());
