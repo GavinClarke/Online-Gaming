@@ -1,16 +1,10 @@
-﻿Build started 22/10/2014 12:17:09.
+﻿Build started 22/10/2014 12:58:30.
      1>Project "C:\Users\Gavin\Desktop\OGLabs\SDLProject\SDLProject.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./ /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Net.cpp Player.cpp
-         Player.cpp
-     1>c:\users\gavin\desktop\oglabs\sdlproject\player.cpp(53): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
-     1>c:\users\gavin\desktop\oglabs\sdlproject\player.cpp(54): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
-         Net.cpp
-     1>c:\users\gavin\desktop\oglabs\sdlproject\net.cpp(144): warning C4101: 'bytes_sent' : unreferenced local variable
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./ /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-         Generating Code...
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\SDLProject.res" SDLProject.rc 
+     1>c:\users\gavin\desktop\oglabs\sdlproject\main.cpp(94): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\gavin\desktop\oglabs\sdlproject\main.cpp(126): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gavin\Desktop\OGLabs\Debug\SDLProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib SDL2.lib SDL2main.lib Box2D.lib SDL2_image.lib SDL2_mixer.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Gavin\Desktop\OGLabs\Debug\SDLProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gavin\Desktop\OGLabs\Debug\SDLProject.lib" /MACHINE:X86 Debug\SDLProject.res
          Debug\main.obj
@@ -22,4 +16,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.32
+Time Elapsed 00:00:01.64

@@ -22,7 +22,8 @@ std::string personalIP;
 std::string personalPort;
 bool IT;
 SDL_Texture* gameOverImage;
-
+float time1 = 0.0;
+float time2 = 0.0;
 void NetWorkSetup()
 {
 	std::cout << "Enter Your ip" << endl;
@@ -90,6 +91,7 @@ int main( int argc, char* args[] )
 	m_Player->LoadImages(gRenderer,"player.png");
 	m_Player_2->LoadImages(gRenderer,"player2.png");
 	bool quit = false;
+	time1 =SDL_GetTicks()/1000;
 	while(quit == false)
 	{
 				//this calls any methods that need to loop in game manager
@@ -121,7 +123,10 @@ int main( int argc, char* args[] )
 		}
 		SendMessage(m_Player->getPosition());
 		SDL_RenderPresent( gRenderer );
+		time2 = SDL_GetTicks()/1000;
 	}
+	float totalTime = time2 - time1;
+	cout << "Game over the time is " + std::to_string( totalTime) << endl;
 	if(IT == true)
 	{
 		gameOverImage = IMG_LoadTexture(gRenderer, "You Win.png");
