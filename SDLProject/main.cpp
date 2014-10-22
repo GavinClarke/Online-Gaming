@@ -117,7 +117,7 @@ int main( int argc, char* args[] )
 		m_Player_2->DrawImage(gRenderer);
 		if(Collision(m_Player->getPosition(),m_Player_2->getPosition()))
 		{
-			//break;
+			break;
 			//int hi= 9;
 		}
 		SendMessage(m_Player->getPosition());
