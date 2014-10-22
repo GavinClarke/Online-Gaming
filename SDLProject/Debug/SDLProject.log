@@ -1,0 +1,16 @@
+﻿Build started 22/10/2014 12:03:49.
+     1>Project "C:\Users\Gavin\Desktop\tag2\SDLProject\SDLProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./ /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gavin\Desktop\tag2\Debug\SDLProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib SDL2.lib SDL2main.lib Box2D.lib SDL2_image.lib SDL2_mixer.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Gavin\Desktop\tag2\Debug\SDLProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gavin\Desktop\tag2\Debug\SDLProject.lib" /MACHINE:X86 Debug\SDLProject.res
+         Debug\main.obj
+         Debug\Net.obj
+         Debug\Player.obj
+         SDLProject.vcxproj -> C:\Users\Gavin\Desktop\tag2\Debug\SDLProject.exe
+     1>Done Building Project "C:\Users\Gavin\Desktop\tag2\SDLProject\SDLProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.72
